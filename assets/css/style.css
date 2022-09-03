@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: rgb(17, 86, 102);
+    --primary-color-darker: rgb(9, 48, 56);
+}
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    border-radius: 10px;
+}
+
+
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+#tarefa:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+#addTarefa {
+    border: none;
+    background: var(--primary-color);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    height: 25px;
+    cursor: pointer;
+}
+
+#addTarefa:hover {
+    background: var(--primary-color-darker);
+}
+
+li > input {
+    margin-left: 20px;
+}
+
